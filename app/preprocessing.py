@@ -4,6 +4,8 @@ import pandas as pd
 import regex as re
 from nltk.corpus import stopwords
 import nltk
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 from nltk.stem import SnowballStemmer, WordNetLemmatizer
 import os
 import matplotlib.pyplot as plt
