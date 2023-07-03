@@ -4,7 +4,7 @@ from app.mining import Miner
 
 
 class IssueMiner(Miner):
-    VSCODE_ISSUES_URL = "https://api.github.com/repos/microsoft/vscode/issues"
+    VSCODE_ISSUES_URL = "https://api.github.com/repos/microsoft/vscode/issues/"
 
     def get_an_issue_by_id(self, id: str) -> dict:
         headers = {"Accept": self.MEDIA_TYPE}
