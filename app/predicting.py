@@ -5,6 +5,9 @@ from app.issue_mining import IssueMiner
 from nltk.corpus import stopwords
 import nltk
 from app.preprocessing import preprocess
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
 
 
 class Predictor:
