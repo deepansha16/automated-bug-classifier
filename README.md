@@ -1,6 +1,11 @@
 # Automated Bug Classifier for the VSCode Repository
 
-Please find below a demo of the command line tool.
+## Demo
+
+https://github.com/deepansha16/automated-bug-classifier/assets/49023785/21c4993b-15cc-4275-8e7e-42be869756c5
+
+
+Please find below the instructions to operate the command line tool.
 
 ## 1. Environment
 
@@ -98,9 +103,4 @@ _Parameters Description_:
 `-v` or  `--vectorizer-source`: Path to the vectorizer file, default is data/vectorizer.joblib.
 
 `-f <path-to-feature-vectors>` or `--source <path-to-feature-vectors>`: Path to the feature vector file, default is `data/feature_vectors.csv`
-
-## Demo
-
-https://github.com/deepansha16/automated-bug-classifier/assets/49023785/21c4993b-15cc-4275-8e7e-42be869756c5
-
 
