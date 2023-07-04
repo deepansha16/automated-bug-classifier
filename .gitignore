@@ -7,3 +7,6 @@
 *.json
 *.log
 *.pyc
+data/.DS_Store
+*.gzip
+*.csv

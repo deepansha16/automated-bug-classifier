@@ -79,7 +79,7 @@ predicting:
     Take as input the id of an open vscode's issue on GitHub and provide as output a 
     ranked list of candidate assignees.
     Usage:
-        $ python -m app.bug_triaging predicting -r -id 156426
+        $ python3 -m app.bug_triaging predicting -r -id 186955
     Flags:
     -r | --recent:
         Flag to enable predicting with the model trained with recent issues (130000 <= id <= 150000).

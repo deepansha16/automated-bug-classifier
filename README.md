@@ -85,7 +85,7 @@ Command to input the id of an open vscode's issue on GitHub and provide as outpu
 ranked list of candidate assignees.
 
 ```sh
-$  python -m app.bug_triaging predicting -r -id 186776
+$  python3 -m app.bug_triaging predicting -r -id 186776
 ```
 _Parameters Description_:
 
